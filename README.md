@@ -1,12 +1,8 @@
-# js-lab-160
-### Lab 160 ES6: result6
-ผลลัพธ์ในบรรทัดที่มี * มีค่าเป็นอะไรและเพราะอะไร
+# js-lab-161
+### Lab 161 ES6: Array destructuring1
+ให้ใช้ Array destructuring ในการสลับค่าตัวแปร guest กับ admin
 
 ```JavaScript
-function getUserData({ firstName, favoriteColor = 'green' }) {
-  return `Your name is ${firstName} and you like ${favoriteColor}`;
-}
-getUserData({ firstName: 'Alejandro', favoriteColor: 'purple' }); // *
-getUserData({ firstName: 'Melissa' }); // **
-getUserData({}); // ***
+let guest = 'Jane';
+let admin = 'Pete';
 ```
